@@ -1,0 +1,38 @@
+.splash-page-main-div-container {
+	width: 100vw;
+	height: 80vh;
+	background-image: url(discordBG.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+}
+
+.splash-page-2nd-div-container {
+	width: 100vw;
+	height: 80vh;
+
+	display: flex;
+}
+
+.splash-page-main-div-container div {
+	margin: 5% auto;
+}
+
+.splash-page-main-div-container h1 {
+	font-family: 'PT Sans';
+	margin: 2% auto;
+	text-align: center;
+	color: white;
+}
+
+.splash-page-main-div-container h4 {
+	font-family: 'PT Sans';
+	margin: 2% 30%;
+	text-align: center;
+	color: white;
+}
+
+.splashpage-btn-container {
+	display: flex;
+	justify-content: center;
+}

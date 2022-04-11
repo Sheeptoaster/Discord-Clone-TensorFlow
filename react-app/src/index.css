@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,100&family=PT+Sans&display=swap');
+
+* {
+	font-family: 'PT Sans' !important;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	color: #FFFFFF
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}

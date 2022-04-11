@@ -28,10 +28,7 @@ def authenticate():
 
 @auth_routes.route("/login", methods=["POST"])
 def login():
-	user = User().login()
-	print(json.loads(user[0].data))
-	login_user(json.loads(user[0].data))
-	return jsonify(user)
+	return User().login()
 
 
 @auth_routes.route("/logout")
